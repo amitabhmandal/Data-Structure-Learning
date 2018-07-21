@@ -1,0 +1,42 @@
+Algorithm: Any piece of code which performs a desired task is called algorithm
+
+===================================
+linear Time
+===================================
+Algorithms that scale up linearly.
+If the code is looping with a single for loop. The the time taken to complete the loop
+depends on the number of elements present in the loop.
+
+Hence there is direct relation between the size of the loop and the time taken to process it.
+
+Hence we can time taken is 'N'
+
+===================================
+Constant time
+===================================
+
+public getElementFrom(int[] a, int index){
+	return a[index]
+}
+
+Will always fetch the element value in constant time.
+
+Regardless how big the array size is it will return the value in constant time
+
+Check out the graph for linear vs Constant time.
+
+
+===================================
+Quardratic time
+===================================
+public int countDuplicates(int items[], int items2[]){
+	int count = 0;
+	for(int i = 0; i < items1.length ; i++) {
+		for(int j = 0 ; j < items2.length ; j++) {
+			if(items1[1] == items2[j]){
+				count ++;
+			}
+		}
+	return count;
+} 
+
