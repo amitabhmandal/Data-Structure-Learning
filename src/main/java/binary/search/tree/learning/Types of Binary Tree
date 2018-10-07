@@ -1,0 +1,9 @@
+Types of Binary Tree
+1. Full Binary Tree - A full binary tree sometimes proper binary tree or 2-tree
+is a tree which every node other than the leaf nodes has two children
+
+2. Complete Binary Tree:
+In a complete binary tree every level, except possibly the last, is completely filled
+and all nodes in the last level are as far left as possible.
+
+It can have between 1 and 2h nodes at the last level.

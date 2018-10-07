@@ -1,0 +1,138 @@
+A tree can have only one root node. 
+The root node is the parent node.
+
+Each node can have only one parent. Each node can have however multiple children.
+
+A tree is a hierarchical data structure.
+
+A node can have multiple children.
+
+Best example of tree hierarchical data structure is Java Class API.
+
+Each class can have only one parent class. However a parent class can have multiple
+child classes.
+
+In Java API Object class is the root of the API.
+
+Another example of Tree is File System of our Operating System.
+
+A leaf node has no children.
+
+Every non-root node has one and only one parent.
+
+A singleton tree has only one node and it is called the root.
+
+A subtree is any node and all it's descendants.
+
+A path is a sequence of nodes that is required to go from one node to another.
+Important characteristic of trees is that you cannot have cyclic paths hence there will be 
+only one path from node A to node B and only once through the path that node shall be 
+crossed.
+
+Root Path: Will be going from the node to the root node.
+
+Depth of a node: It is the number of edges from the node to the root.
+Hence the depth of root will be always be zero because there are no edges from the path 
+from the root to the root.
+
+Height of a node: It is the number of edges on the longest path from the node to the 
+the leaf. 
+Leaf nodes shall have a height of zero. If the height of a node is the number of edges 
+on the longest path from the node to the leaf then there are no edges that lead from 
+leaf node to the leaf node.
+
+
+Height of a tree is a height of the root node ie the longest path from the root node
+through the longest path to the leaf node.
+
+
+Thus depth of the node: It is starting from the node and going to the root of the tree
+thus going in the reverse direction.
+
+Thus height of the node: It is going in the direction of the edges and thus it shall be
+starting from the root node and going  to the leaf nodes through the longest path.
+
+Siblings ie node at the same level might not necessarily be at the same height.
+
+Level of a tree : Is all the node that are the same depth.
+
+===================================================================================
+Binary Tree : 
+Every node has 0, 1 or 2 children.
+
+In case of normal tree it can have as many children as it wants. However for binary
+tree there is a limitation. 
+
+Since a node can have at maximum two children hence they are referred to as 
+left child or right child.
+
+===================================================================================
+
+Full Binary Tree : Every node besides the leaf node has two children.
+
+===================================================================================
+Binary Search Trees:
+
+In practice we use binary search trees. 
+Because we can perform insertions/ deletions / retrievals in o(logn) time.
+
+The left child is always smaller than the parent.
+The right child is always larger than the parent.
+
+Thus we can conclude that everything to the left is always smaller than the root and 
+everything to the right is always larger than the root.
+
+Because of that we can do a binary search.
+
+===================================================================================
+
+Duplicate in Binary Trees: 
+1. Some implementations do not allow any insertion in the binary tree. 
+2. If we want to allow duplicates then it should either be allowed in the left sub tree or 
+right sub tree.
+3. A third approach is to have a counter with each node. So that instead of adding the value
+to the tree we increment the counter value.
+
+====================================================================================
+
+The order in which we insert elements into the tree would decide how the tree looks.
+
+====================================================================================
+
+Minimum value of a tree is left most node. 
+So if we keep on going left then we get the minimum value of the tree.
+
+Similarly if we keep on going on right then we get the maximum value of the tree.
+Hence the rightmost leaf node would be the maximum value of the tree.
+
+====================================================================================
+What happens if we insert sorted data into a tree?
+
+If we insert sorted data into a tree then it will end up growing in one direction
+ie if is descending sorted data then the tree would end up growing in the left
+
+however the data is sorted in ascending order then the tree would keep on growing 
+towards the right in one direction.
+
+This is not a good option. 
+Because then we end up having a linkedList which makes no sense as then 
+CRUD operation would start happening at o(n) time in comparison to having 
+o(logn) which is much desired.
+
+====================================================================================
+Self Balancing trees requirement?
+Ideally we try to keep the binary tree balanced and hence when we are inserting
+something into the left of the tree an equal is inserted at the right of the tree.
+So that operations happen at o(logn) time.
+
+Hence if the left and right are not balanced then there are self balancing trees 
+which try to balance each side of the tree after a delete/update/insert operation is 
+performed.
+
+Two common implementations of self balancing trees are
+AVL trees and self balancing trees.
+====================================================================================
+
+====================================================================================
+
+====================================================================================

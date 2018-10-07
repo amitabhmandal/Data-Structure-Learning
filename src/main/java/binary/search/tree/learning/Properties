@@ -1,0 +1,14 @@
+A Tree is an abstract data type
+
+One entry point is called the ROOT
+
+Each node is called the leaf or the internal node.
+
+A leaf node is one which does not have any children associated with them.
+
+An internal node is one which does has children which can be leaf nodes or not.
+
+An internal node can have one or more children.
+
+The internal node can be said to be parent of the child.
+

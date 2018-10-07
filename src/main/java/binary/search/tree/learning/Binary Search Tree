@@ -1,0 +1,10 @@
+In computer science binary search tree(BST) sometimes called ordered or sorted 
+binary trees are a particular type of container: data structures that store items
+in memory
+
+A binary tree is sorted if every node in the tree is larger than or equal to it's 
+left descendants and smaller than or equal to it's right descendants.
+
+
+
+ 

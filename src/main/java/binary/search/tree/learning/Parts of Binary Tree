@@ -1,0 +1,13 @@
+A binary tree is composed of one or more nodes.
+
+The nodes can be primitive or non-primitive.
+
+Each node contains
+1. A value (some sort of item)
+2. A reference or pointer to the left child (may be null)
+3. A reference or pointer to the right child(may be null)
+4. A binary tree may be empty(contain no nodes)
+5. If not empty then the binary has a root nodes
+6. Every node in the binary tree is reachable from the root node by a unique path
+7. A node with no left and right child is called the leaf node.
+8. 

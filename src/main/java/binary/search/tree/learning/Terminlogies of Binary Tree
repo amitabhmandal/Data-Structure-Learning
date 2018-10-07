@@ -1,0 +1,14 @@
+Node: A node is a point in the tree. Each node has a value at each node.
+
+Root: The node at the top. Every tree has node root.
+
+Parent: The node that is directly above a node. 
+
+Children: The node directly beneath a node is called children
+
+Inner node: A node with children is called inner node. 
+
+Leaf node: A node with no children. 
+
+Sub tree: A node and all it's descendants.
+
