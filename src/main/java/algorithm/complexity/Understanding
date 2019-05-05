@@ -40,3 +40,21 @@ public int countDuplicates(int items[], int items2[]){
 	return count;
 } 
 
+
+
+===================================
+Big O notation - Worst Case
+===================================
+How run time scales with respect to some input variables
+
+Rules for calculation
+1. Different steps to get added
+2. Drop constants 
+3. Different inputs use different variables
+4. Drop non-dominate terms
+
+===================================
+Time Complexity
+=================================== 
+
+List of Must Read Java 9 Tutorials
